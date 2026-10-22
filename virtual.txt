@@ -1,0 +1,7 @@
+# To create virtual Environment
+1. python -m venv venv
+2. Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+2. .\venv\Scripts\Activate.ps1
+
+# To create a requirements.txt command.
+pip freeze > requiremnts.txt
